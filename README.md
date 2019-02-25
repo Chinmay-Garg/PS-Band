@@ -4,7 +4,7 @@ Repo for COMP3710 - IoT BIT tour
 
 ### Documentation
 
-Our artefact is called PS Band, short for 'Party Safe Band'. It's main purpose is to help promote responsible drinking. 
+Our artefact is called PS Band, short for 'Party Safe Band'. PS Band is a sort of tracker (like Fitbit, for example) but instead of tracking your steps, it tracks your Blood Alcohol Content (BAC). It is basically a battery powered ESP32 microcontroller which is connected to a alcohol sensor. The idea is that everyone in the group wears a PS Band, which is connected to their phone and sends the wearer’s BAC information over Bluetooth. Therefore, after implementing the server, everyone will be able to monitor their own and additionally, their friends’ BAC values.
 
 ### Software
 
@@ -32,5 +32,7 @@ Follow the instructions [here](https://flutter.dev/docs/get-started/install) for
 - 3 x Jumper Cables (Multi-coloured to be more diverse and inclusive)
 
 ### Licensing 
+Please refer to a file named 'LICENSE' in the root directory for the licensing details.
 
-MIT License
+### Contact
+If you are interested in this project and would like to contribute, please get in contact with us at chinmay.garg@mail.com
