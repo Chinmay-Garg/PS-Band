@@ -25,6 +25,7 @@ Follow the instructions [here](https://flutter.dev/docs/get-started/install) for
 After opening the flutter_app_myapp directory in Android studio, run "flutter packages get" to download the depenancies for this app.
 
 **macOS only**
+
 For macOS, you might have to set the port that the file will be uploaded to. This can be changed via the commnand "make menuconfig" 
 
 ![Set upload USB port](dependencies/USB2.png)
