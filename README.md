@@ -26,10 +26,10 @@ Follow the instructions [here](https://flutter.dev/docs/get-started/install) for
 
 ### Hardware
 
-1 x ESP32 microcontroller (We used NODEMCU-32S)
-1 x Arduino microcontroller (To provide 5.0 V input to the alcohol sensor)
-1 x MQ-3 (Alcohol sensor)
-3 x Jumper Cables (Multi-coloured to be more diverse and inclusive)
+- 1 x ESP32 microcontroller (We used NODEMCU-32S)
+- 1 x Arduino microcontroller (To provide 5.0 V input to the alcohol sensor)
+- 1 x MQ-3 (Alcohol sensor)
+- 3 x Jumper Cables (Multi-coloured to be more diverse and inclusive)
 
 ### Licensing 
 
