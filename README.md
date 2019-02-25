@@ -11,15 +11,14 @@ Our artefact is called PS Band, short for 'Party Safe Band'. PS Band is a sort o
 - MacOS 10.0 or above; or Linux;
 - Flutter mobile application development
 - Android Studio 3.0 or later
-- Espressif Integrated Development Framwork (ESP-IDF)
+- Espressif Integrated Development Framework (ESP-IDF): v3.1.2
 - Any text editor (We used VSCode)
 - Xtensa architecture specific toolchain (follow the ESP-IDF installation instructions)
-- Make command line utility --V
+- Make command line utility (We used v4.1)
 
 Follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#setup-toolchain) to setup the toolchain for ESP32 on your preferred OS
 
 You might also have to add the IDF-PATH to user profile. Follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/add-idf_path-to-profile.html#add-idf-path-to-profile-linux-macos) for more instructions.
-
 
 Follow the instructions [here](https://flutter.dev/docs/get-started/install) for installing Flutter and [here](https://flutter.dev/docs/get-started/editor) for setting up Android Studio to get the app development framework for this project.
 
@@ -47,6 +46,8 @@ Here, the wires connect:
 
 Please refer to a file named 'LICENSE' in the root directory for the licensing details.
 
-### Contact
+### Contact and Contributions
+
+There's still so many ways we could improve this project! We're still looking to sort out the server to mobile app connection. We also 
 
 If you are interested in this project and would like to contribute, please get in contact with us at chinmay.garg@mail.com
