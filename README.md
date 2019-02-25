@@ -34,17 +34,19 @@ The project is majorly split into two parts - the ESP-IDF backend and the Flutte
 
 The Arduino is used to power the sensor as the sensor requires an input of 5.0V and the NODEMCU-32S only provides 3.3V. In light of this, our current setup is:
 
-![alt text]("dependencies/Hardware_Setup.jpg"  "Current hardware setup")
+![Current Hardware Setup](dependencies/Hardware_Setup.jpg)
 
 Here, the wires connect:
 
 - Indigo: MQ3 Sensor *GND* $\iff$ *GND* ESP32–earthing the sensor
 - Red: Arduino *5V Output* $\iff$ *VCC* MQ3 Sensor–powering the sensor
 - Yellow: MQ3 Sensor *Analog output* $\iff$ *Pin 34* ESP32–Pin 34 is connected to an analog-digital converter on the ESP32.
-- Purple: Arduino *GND* $\iff$ *GND* ESP32: connecting grounds on both boards ensures voltage readings are consistent
+- Purple: Arduino *GND* $\iff$ *GND* ESP32–connecting grounds on both boards ensures voltage readings are consistent
 
 ### Licensing 
+
 Please refer to a file named 'LICENSE' in the root directory for the licensing details.
 
 ### Contact
+
 If you are interested in this project and would like to contribute, please get in contact with us at chinmay.garg@mail.com
