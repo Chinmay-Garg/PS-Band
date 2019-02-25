@@ -24,11 +24,14 @@ Follow the instructions [here](https://flutter.dev/docs/get-started/install) for
 
 After opening the flutter_app_myapp directory in Android studio, run "flutter packages get" to download the depenancies for this app.
 
-macOS only
-
-![Set upload USB port](dependencies/USB1.png)
+**macOS only**
+For macOS, you might have to set the port that the file will be uploaded to. This can be changed via the commnand "make menuconfig" 
 
 ![Set upload USB port](dependencies/USB2.png)
+
+After the above the screen appears, go to "Serial flasher config" and then change the USB port in "Default Serial Port". You only have to do it once for the project. The list of USB devices can be found by entering "ls /dev/cu.* " in the terminal.
+
+![Set upload USB port](dependencies/USB1.png)
 
 The project is majorly split into two parts - the ESP-IDF backend and the Flutter front end development. ESP-IDF backend is contained in the folder gatt_server_adc. The main BLE-Gatt-With-Phone.c file is contained in gatt_server_adc -> main. Simply, connected your ESP32 microcontroller and navigate to this folder and run 'make flash monitor' to upload the code.
 
