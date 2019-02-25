@@ -22,6 +22,8 @@ You might also have to add the IDF-PATH to user profile. Follow the instructions
 
 Follow the instructions [here](https://flutter.dev/docs/get-started/install) for installing Flutter and [here](https://flutter.dev/docs/get-started/editor) for setting up Android Studio to get the app development framework for this project.
 
+After opening the flutter_app_myapp directory in Android studio, run "flutter packages get" to download the depenancies for this app.
+
 The project is majorly split into two parts - the ESP-IDF backend and the Flutter front end development. ESP-IDF backend is contained in the folder gatt_server_adc. The main BLE-Gatt-With-Phone.c file is contained in gatt_server_adc -> main. Simply, connected your ESP32 microcontroller and navigate to this folder and run 'make flash monitor' to upload the code.
 
 ### Hardware
@@ -48,6 +50,6 @@ Please refer to a file named 'LICENSE' in the root directory for the licensing d
 
 ### Contact and Contributions
 
-There's still so many ways we could improve this project! We're still looking to sort out the server to mobile app connection. We also 
+There's still so many ways we could improve this project! We're still looking to sort out the server to mobile app connection. We could also use help improving the overall UI.
 
 If you are interested in this project and would like to contribute, please get in contact with us at chinmay.garg@mail.com
