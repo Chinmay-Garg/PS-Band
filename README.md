@@ -26,9 +26,9 @@ After opening the flutter_app_myapp directory in Android studio, run "flutter pa
 
 macOS only
 
-![Set upload USB port](dependencies/Screen Shot 2019-02-25 at 10.27.18 pm.png)
+![Set upload USB port](dependencies/"Screen Shot 2019-02-25 at 10.27.18 pm.png")
 
-![Set upload USB port](dependencies/Screen Shot 2019-02-25 at 10.27.28 pm.png)
+![Set upload USB port](dependencies/"Screen Shot 2019-02-25 at 10.27.28 pm.png")
 
 The project is majorly split into two parts - the ESP-IDF backend and the Flutter front end development. ESP-IDF backend is contained in the folder gatt_server_adc. The main BLE-Gatt-With-Phone.c file is contained in gatt_server_adc -> main. Simply, connected your ESP32 microcontroller and navigate to this folder and run 'make flash monitor' to upload the code.
 
