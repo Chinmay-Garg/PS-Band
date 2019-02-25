@@ -8,13 +8,13 @@ Our artefact is called PS Band, short for 'Party Safe Band'. It's main purpose i
 
 ### Software
 
-MacOS 10.0 or above; or Linux;
-Flutter mobile application development
-Android Studio 3.0 or later
-ESP-IDF
-Any text editor (We used VSCode)
-Xtensa architecture specific toolchain (follow the ESP-IDF installation instructions)
-Make command line utility --V
+- MacOS 10.0 or above; or Linux;
+- Flutter mobile application development
+- Android Studio 3.0 or later
+- Espressif Integrated Development Framwork (ESP-IDF)
+- Any text editor (We used VSCode)
+- Xtensa architecture specific toolchain (follow the ESP-IDF installation instructions)
+- Make command line utility --V
 
 Follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#setup-toolchain) to setup the toolchain for ESP32 on your preferred OS
 
