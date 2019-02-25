@@ -23,13 +23,17 @@ You might also have to add the IDF-PATH to user profile. Follow the instructions
 
 Follow the instructions [here](https://flutter.dev/docs/get-started/install) for installing Flutter and [here](https://flutter.dev/docs/get-started/) for setting up Android Studio to get the app development framework for this project.
 
+The project is majorly split into two parts - the ESP-IDF backend and the Flutter front end development. ESP-IDF backend is contained in the folder gatt_server_adc. The main BLE-Gatt-With-Phone.c file is contained in gatt_server_adc -> main. Simply, connected your ESP32 microcontroller and navigate to this folder and run 'make flash monitor' to upload the code.
 
 ### Hardware
 
 - 1 x ESP32 microcontroller (We used NODEMCU-32S)
 - 1 x Arduino microcontroller (To provide 5.0 V input to the alcohol sensor)
 - 1 x MQ-3 (Alcohol sensor)
-- 3 x Jumper Cables (Multi-coloured to be more diverse and inclusive)
+- 3 x Jumper Cables
+
+The Arduino is used to power the sensor as the sensor requires an input of 5.0V and the NODEMCU-32S only provides 3.3V. 
+
 
 ### Licensing 
 Please refer to a file named 'LICENSE' in the root directory for the licensing details.
